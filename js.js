@@ -81,9 +81,9 @@ let books = {
 for (let types in books){
     console.log(types + ' literatura ' + books[types].length + ' Knygos')
     console.log(' ')
-for (let book of books[typesgi]){
+for (let book of books[types]){
     for(let data in book){
-        if(book[data] === 2022){
+        if(book[data] == 2022){
             console.log(data + ': '+ book[data] + ' (nauja knyga)')}else{
                 console.log(data + ': '+ book[data]) 
         }}
