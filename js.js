@@ -113,7 +113,7 @@ const newObj = function (object){
             rObj.year = obj.year;
             rObj.name = obj.name;
             rObj.pages = obj.pages;
-            rObj.price = obj.price * 1.15;
+            rObj.price = ((obj.price * 1.15).toFixed(2));
 
             return rObj;
         })
